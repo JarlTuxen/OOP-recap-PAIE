@@ -8,7 +8,7 @@ public class Machine {
     private boolean isOn;
 
     //constructor
-    public Machine{
+    public Machine(){
         isOn = false;
     }
 
