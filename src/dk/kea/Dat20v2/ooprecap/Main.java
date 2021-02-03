@@ -38,6 +38,7 @@ public class Main {
             System.out.println(machine);
             machine.setState(true);
             System.out.println(machine);
+            //cast for at kunne bruge metode på DvdPlayer
             if (machine instanceof DvdPlayer) {
                 ((DvdPlayer) machine).changeTitle("Bach");
                 System.out.println(machine);
