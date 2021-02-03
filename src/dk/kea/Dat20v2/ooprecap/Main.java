@@ -1,13 +1,13 @@
-package dk.kea.Dat20v2;
+package dk.kea.Dat20v2.ooprecap;
 
 public class Main {
 
     public static void main(String[] args) {
 	    // Initialize Machine and turn On and off
 
-        // add radio and printer
+        // add radio and dvd
 
-        // polymorfi - print med instanceof
+        // polymorfi - change dvd med instanceof
 
     }
 }
