@@ -1,30 +1,28 @@
 package dk.kea.Dat20v2.ooprecap;
 
-import java.util.Objects;
-
 public class Machine {
 
     //field
-    private boolean isOn;
+    private boolean state;
 
     //constructor
     public Machine(){
-        isOn = false;
+        state = false;
     }
 
     //getters and setters
-    public boolean isOn() {
-        return isOn;
+    public boolean getState() {
+        return state;
     }
 
-    public void setOn(boolean on) {
-        isOn = on;
+    public void setState(boolean state) {
+        this.state = state;
     }
 
     @Override
     public String toString() {
         return "Machine{" +
-                "isOn=" + isOn +
+                "state=" + state +
                 '}';
     }
 
