@@ -12,7 +12,7 @@ public class Main {
         m.setState(true);
         System.out.println(m);
 
-        // add radio with news and dvd that can play Metallica
+        // add dvs and radio that can play Metallica
         m = new Radio();
         System.out.println(m);
         m.setState(true);
@@ -22,6 +22,7 @@ public class Main {
         System.out.println(m);
         m.setState(true);
         System.out.println(m);
+        // cast til DvdPlayer, så changeTitle kan bruges
         ((DvdPlayer) m).changeTitle("Slayer");
         System.out.println(m);
 
@@ -38,8 +39,9 @@ public class Main {
             System.out.println(machine);
             machine.setState(true);
             System.out.println(machine);
-            //cast for at kunne bruge metode på DvdPlayer
+            // check om DvdPlayer, så der er en changeTitle
             if (machine instanceof DvdPlayer) {
+                // cast for at kunne bruge metode på DvdPlayer
                 ((DvdPlayer) machine).changeTitle("Bach");
                 System.out.println(machine);
             }
